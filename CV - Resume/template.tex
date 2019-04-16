@@ -1,0 +1,180 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%---------------------------------------------
+%   IMPORT PACKAGE
+%---------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{etoolbox}
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{photo.png} % Profile picture
+
+\cvname{BORDE Martin} % Nom Prenom
+\cvjobtitle{Informaticien} % Nom du travail
+
+\cvdate{23 mai 1997} % Date de naissance
+\cvaddress{France, Limoges} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{(+33)7.50.29.50.30} % Phone number
+\cvsite{https://borde.ml} % Personal website
+\cvcar{Permis B + véhicule}
+\cvmail{martin.borde19@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 Compétence
+%----------------------------------------------------------------------------------------
+
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{
+        {Android/3},
+        {Web/5},
+        {C++/4},
+        {Java/4},
+        {OpenGL/1},
+        {null}
+}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Présentation}
+\newline
+\newline
+Étudiant en informatique, je suis intéressé par l'informatique et tout particulièrement l'informatique embarqué et la robotique. 
+\newline Attentif aux nouvelles technologies , j'aime m'essayer à tout types de projets.
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Éducation}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2018-2019}  {Master}    {Limoges}   {(En cours)Master 1 - Informatique, Synthèse d’Images et Conception Graphique}
+	\twentyitem{2017-2018}  {Licence}   {Limoges}   {Licence informatique}
+	\twentyitem{2015-2017}  {BTS}       {Limoges}   {BTS Système numérique - Informatique et réseaux}
+	\twentyitem{2015}       {Bac}       {Tulle}     {Bac scientifique - Mention Assez Bien}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 
+%----------------------------------------------------------------------------------------
+
+\section{Expériences}
+
+\begin{twenty} % Environment for a short list with no descriptions
+	\twentyitem{2018-2019}  {Olympiades}            {}          {Olympiades des métiers nationales - Robotique mobile - Quatrième de France}
+	\twentyitem{2018}       {ASTEP}                 {Limoges}   {Enseignement de l'informatique à une classe de CM2}
+	\twentyitem{2016-2017}  {Olympiades}            {}          {Olympiades des métiers nationales - Robotique mobile - Médaille de bronze }
+	\twentyitem{2016}       {Stage}                 {Limoges}   {Stage Trans-shirt dans le cadre de mon BTS - Mise en place d'un site web marchand }
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Langues}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{Français}  {Langue maternelle}
+	\twentyitemshort{Anglais}   {Niveau B2}
+	\twentyitemshort{Espagnol}  {Niveau B1}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Expériences professionnelles}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{Hiver 2018} {Animateur}     {APAJH87}{Animateur lors de séjours adaptés pour adultes handicapés}
+	\twentyitem{Été 2018}   {Animateur}     {APAJH87}{Animateur lors de séjours adaptés pour adultes handicapés}
+	\twentyitem{Été 2017}   {Animateur}     {APAJH87}{Animateur lors de séjours adaptés pour adultes handicapés}
+	\twentyitem{Été 2016}   {Manutention}   {Tradifrais}{Ouvrier de manutention}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 Centre d'interet
+%----------------------------------------------------------------------------------------
+
+\section{Centre d'intérêt}
+
+\begin{itemize}
+    \item Lecture fantasy
+    \item Cinéma
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
